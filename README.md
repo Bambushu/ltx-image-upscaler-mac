@@ -18,12 +18,14 @@ identity. Base gen → latent upsample ×2 → refine → last frame.
 
 ## Example
 
-Soft/low-res input → upscaled to ~1920px. Detail (skin pores, beard, hair, fabric) is rebuilt
-while the face stays the same person.
+Soft/low-res 312px input → upscaled to ~1664px. Detail (skin pores, freckles, individual hair
+strands, knit/fabric weave) is rebuilt while the face stays the same person. _(The after images
+below are downscaled to 820px to keep the repo light; the actual render lands ~1664px long side.)_
 
-| before | after |
+| before (312px input) | after (render ~1664px, shown at 820px) |
 |---|---|
-| ![before](examples/before.png) | ![after](examples/after.png) |
+| ![before](examples/before1.png) | ![after](examples/after1.png) |
+| ![before](examples/before2.png) | ![after](examples/after2.png) |
 
 ## Quick start
 
