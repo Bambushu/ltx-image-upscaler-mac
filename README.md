@@ -1,4 +1,4 @@
-# LTX-2.3 Image Upscaler — Apple Silicon / Metal (GGUF)
+# LTX-2.3 Image Upscaler - Apple Silicon / Metal (GGUF)
 
 Run [JXL's **LTX-2.3 Image Upscaler**](https://civitai.com/models/2741107) on an Apple Silicon
 Mac — no NVIDIA GPU, nothing leaves the machine. This is a **Metal/GGUF port** of the upstream
